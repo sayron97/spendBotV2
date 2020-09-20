@@ -7,4 +7,20 @@ exports.getConfig = data => {
     return configs[data]
 }
 
+exports.getButtonOptions = buttons => {
+    return {
+        reply_markup: JSON.stringify({
+            inline_keyboard: buttons,
+            parse_mode: 'Markdown'
+        })
+    }
+}
+
+exports.getEnterTextOption = buttons => {
+    return {
+        reply_markup: JSON.stringify({force_reply: true}
+        ),
+    }
+}
+
 exports.TG_API_KEY = '1325311045:AAGRsCBET9xUth-SFq5BmwKJUESQuZO2aUc'
