@@ -18,6 +18,8 @@
   "homepage": "https://github.com/sayron97/spendBotV2#readme",
   "dependencies": {
     "mongodb": "^3.6.2",
-    "node-telegram-bot-api": "^0.50.0"
+    "mongoose": "^5.10.6",
+    "node-telegram-bot-api": "^0.50.0",
+    "nodemon": "^2.0.4"
   }
 }
