@@ -1,3 +1,5 @@
+const Products = require("./models/products");
+
 exports.getBlock = data => {
     let res = []
     switch (data) {
@@ -15,7 +17,7 @@ exports.getBlock = data => {
                 title: 'Меню трат',
                 buttons: [
                     [{ text: 'Добавить продукт', callback_data: 'add_new_product'}],
-                    [{ text: 'Записать трату', callback_data: 'enter_first_letter'}],
+                    [{ text: 'Записать трату', callback_data: 'new_spend'}],
                     [{ text: 'Фото чека', callback_data: 'tab_photo'}],
                     [{ text: 'Вывести статистику', callback_data: 'period'}]
                 ]

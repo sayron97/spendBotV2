@@ -11,10 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="390bb769-9901-47a7-acae-0518bb236c93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blocks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/spends.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/blocks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpendBot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
@@ -49,7 +48,8 @@
       <option name="presentableId" value="Default" />
       <updated>1600629933853</updated>
       <workItem from="1600629934969" duration="2386000" />
-      <workItem from="1600633470744" duration="7404000" />
+      <workItem from="1600633470744" duration="7900000" />
+      <workItem from="1600686093126" duration="3678000" />
     </task>
     <servers />
   </component>
